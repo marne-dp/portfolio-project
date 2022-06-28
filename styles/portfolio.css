@@ -55,6 +55,34 @@ p {
   
 }
 
+.content-container {
+padding: 160px 20px;
+}
+
+.content h1{
+font-size: 64px;
+line-height: 80px;
+}
+.content h2{
+  font-size: 18px;
+  font-family: var(--default-font-family) ;
+}
+
+.content h3{
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -73,9 +101,49 @@ p {
   padding: 15px 30px;
 }
 
+.logo {
+  max-width: 150px;
+  max-height: 40px;
+}
+
+
+
 .project-description {
   padding:  120px 60px;
 }
+
+.personal-img {
+  border-radius: 10px;
+  max-width: 50%;
+  height: auto;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  line-height: 40px;
+  list-style: none;
+  margin-left: 15px ;
+
+}
+nav a {
+  color: #272142;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover, 
+nav li.active a { 
+  color: var(--branding-color);
+}
+
+
 
 @media (max-width: 900px) {
 
@@ -93,8 +161,15 @@ p {
     padding: 80px 10px;
   }
 
+.content {
+  padding: 0;
+  text-align: center;
+}
   .project-description {
     padding: 0;
     text-align: center;
   }
+
 }
+
+
