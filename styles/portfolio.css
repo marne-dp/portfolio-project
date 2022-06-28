@@ -1,6 +1,6 @@
 :root {
   --branding-color: #6c63ff;
-  --secondary-color: #272142;
+  --secondary-color: #f9f7fe;
   --heading-font-family:"Playfair Display", serif;
   --default-font-family:"Poppins", sans-serif;
 }
@@ -28,6 +28,10 @@ h2{
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -35,13 +39,13 @@ p {
 }
 
 .hero {
-  background: #f9f7fe;
+  background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
 
 .hero p {
-  color: var(--secondary-color);
+  color: #272142;;
   font-size: 36px;
   font-weight: bold;
   margin: 0;
@@ -117,7 +121,45 @@ line-height: 80px;
   max-width: 50%;
   height: auto;
 }
+footer {
+  margin: 60px 0;
+}
 
+footer .contact-box {
+background-color: var(--secondary-color);
+padding: 30px 60px;
+border-radius: 10px;
+}
+
+footer .contact-box p{
+  margin: 0;
+}
+
+footer .email-link {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a{
+  background-color: #f9f7fe;
+  border-radius: 50%;
+  color: var(--branding-color);
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 10px 14px;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  background-color: var(--branding-color);
+  color: white;
+
+}
 nav {
   padding: 20px 0;
 }
@@ -145,6 +187,9 @@ nav li.active a {
 
 
 
+
+
+
 @media (max-width: 900px) {
 
   h1 {
@@ -155,6 +200,11 @@ nav li.active a {
   h2 {
     font-size: 44px;
   }
+
+  h4 {
+    font-size: 26px;
+  }
+
 
   .hero {
   
@@ -169,6 +219,8 @@ nav li.active a {
     padding: 0;
     text-align: center;
   }
+
+ 
 
 }
 
