@@ -36,20 +36,8 @@
     ></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container nav-container">
       <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage">
-          <img
-            src="/images/logo.png"
-            class="logo d-none d-md-block"
-            alt="Shecodes logo"
-          />
-          <img
-            src="/images/logo-small.jpg"
-            class="logo d-block d-md-none"
-            alt="Shecodes logo"
-          />
-        </a>
         <ul>
           <li class="active">
             <a href="/" title="Homepage"> Home</a>
@@ -70,29 +58,30 @@
       <p>Hello, I am</p>
       <h1>Marné du Preez</h1>
       <h2 class="mb-5">South African Front-end developer based in Croatia</h2>
-      <div><a href="#" class="btn btn-branding">Contact me</a></div>
+      <div><a href="/contact.html" class="btn btn-branding">Contact me</a></div>
     </div>
 
-    <p class="text-center m-5">My featured projects</p>
+    <p class="text-center m-5 featured-projects">My featured projects</p>
     <div class="container">
       <div class="row mb-5">
-        <div class="col d-none d-lg-block">
+        <div class="col d-none d-lg-block d-flex justify-content-center text-center">
           <img
-            src="/images/yogurt.png"
-            class="img-fluid"
-            alt="Yogurt Project preview"
+            src="/images/salon.png"
+            class="img-fluid rounded"
+            alt="Salon project preview"
           />
         </div>
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5">Yogurt Project</h2>
+            <h2 class="mb-5">Salon Landing Page Project</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              This is a landing page for a website that I created for a beauty
+              salon.
             </p>
-            <a href="/work.html" class="btn btn-branding-outline"
+            <a
+              href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/765/270/original/Marne_du_Preez_FinalProjectBasics.html?1647952483"
+              class="btn btn-branding-outline"
+              target="_blank"
               >View detail project</a
             >
           </div>
@@ -100,15 +89,16 @@
       </div>
       <div class="row mb-5">
         <div class="col">
-          <div class="project-description">
+          <div class="project-description rounded">
             <h2 class="mb-5">Weather Project</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              I have created a weather application that shows weather in
+              real-time using API.
             </p>
-            <a href="/work.html" class="btn btn-branding-outline"
+            <a
+              href="https://delightful-concha-661b60.netlify.app/"
+              class="btn btn-branding-outline"
+              target="_blank"
               >View detail project</a
             >
           </div>
@@ -116,41 +106,19 @@
         <div class="col d-none d-lg-block">
           <img
             src="/images/weather.png"
-            class="img-fluid"
+            class="img-fluid rounded"
             alt="Weather Project preview"
           />
         </div>
       </div>
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img
-            src="/images/dictionary.png"
-            class="img-fluid"
-            alt="Dictionary Project preview"
-          />
-        </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Dictionary Project</h2>
-            <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <a href="/work.html" class="btn btn-branding-outline"
-              >View detail project</a
-            >
-          </div>
-        </div>
-      </div>
+
       <footer class="container">
         <div
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
-          <div>
+          <div class="rounded">
             <h3>Work inquiry</h3>
-            <p class="text-muted">Let's work together</p>
+            <p class="text-muted">I would love to hear from you!</p>
           </div>
           <div>
             <a
@@ -168,12 +136,6 @@
         </div>
         <div class="social-links d-flex justify-content-center">
           <a
-            href="https://www.instagram.com/marne.dp/?hl=en"
-            target="_blank"
-            title="Instagram Handle"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a
             href="https://wa.me/385992845086"
             target="_blank"
             title="Whatsapp Contact"
@@ -187,7 +149,7 @@
             <i class="fa-brands fa-linkedin"></i
           ></a>
         </div>
-        <p class="text-center mt-5">
+        <p class="text-center mt-5 small-print">
           This project was coded by Marne du Preez, and is
           <a
             href="https://github.com/marne-dp/portfolio-project"
